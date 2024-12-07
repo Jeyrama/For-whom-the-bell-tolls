@@ -19,3 +19,11 @@ That's all splaining you receive; what needs to be done you'll have to figure ou
 
 
 // Solution
+
+function bell(n) {
+  let array =[]
+  for (i=0;i<n;i++){
+    array.push((n-i)*(i+1))
+  }
+  return array
+}
