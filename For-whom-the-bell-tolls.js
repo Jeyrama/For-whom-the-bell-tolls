@@ -16,3 +16,6 @@ That's all splaining you receive; what needs to be done you'll have to figure ou
 11  -->  [11, 20, 27, 32, 35, 36, 35, 32, 27, 20, 11]
 12  -->  [12, 22, 30, 36, 40, 42, 42, 40, 36, 30, 22, 12]
 */
+
+
+// Solution
