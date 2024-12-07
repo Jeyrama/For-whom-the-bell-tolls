@@ -29,3 +29,17 @@ function bell(n) {
 }
 
 // or
+
+function bell(n) {
+  let array = [];
+  let counter = 1;
+  const isPair = n % 2 === 0
+  const LoopCondition = isPair ? n / 2 : Math.ceil(n / 2)
+  for (let i = n; array.length < LoopCondition; i--) {
+    array.push(i * counter);
+    counter++;
+  }
+  if (isPair) array = [...array, ...array.reverse()]
+  else array = [...array, ...array.reverse().slice(1)]
+  return array
+}
