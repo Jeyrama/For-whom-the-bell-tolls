@@ -27,3 +27,5 @@ function bell(n) {
   }
   return array
 }
+
+// or
